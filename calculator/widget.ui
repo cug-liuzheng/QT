@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>562</width>
-    <height>372</height>
+    <width>229</width>
+    <height>338</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -22,20 +22,26 @@
   <widget class="QLineEdit" name="mainLineEdit">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>40</y>
-     <width>191</width>
-     <height>31</height>
+     <x>10</x>
+     <y>10</y>
+     <width>201</width>
+     <height>41</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>80</y>
-     <width>191</width>
-     <height>251</height>
+     <x>10</x>
+     <y>56</y>
+     <width>201</width>
+     <height>271</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -135,7 +141,7 @@
        </font>
       </property>
       <property name="text">
-       <string>1</string>
+       <string/>
       </property>
      </widget>
     </item>
